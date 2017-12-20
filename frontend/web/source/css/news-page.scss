@@ -1,0 +1,121 @@
+@import "anons-page.scss";
+.date-link{
+	position: relative;
+	font-size: 13px;
+	padding: 10px;
+	&:after{
+		content: " ";
+		width: 3px;
+		height: 39px;
+		background: #e15f66;
+		position: absolute;
+		right: -20px;
+		top: 0px;
+	}
+}
+.page-content-inner{
+	padding: 40px 65px;
+}
+.page-content-header{
+	font-size: 48px;
+	font-family: $FN;
+}
+.page-content-text{
+	font-size: 16px;
+	
+	font-family: $OI;
+}
+.news-add-information{
+	padding: 0;
+}
+.highlight-text-second{
+	@extend .highlight-text;
+	&:before{
+		width: 40px;
+		height: 40px;
+		background: url(../img/quotes.png) center no-repeat;
+		left: 40px;
+	}
+	h2{
+		color: #232323;
+		font-family: $OS;
+		font-size: 18px;
+	}
+	p{
+		color: #a7a7a7;
+		font-size: 13px;
+		font-family: $OR;
+
+	}
+}
+.social-links{
+	border-top: 1px solid #eee;
+	margin-top: 40px;
+	ul{
+		padding: 20px 0;
+		li{
+			margin-left: 20px;
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+		}
+	}
+}
+.facebook{
+	margin-left: 0!important;
+	background: url(../img/soc-link.png) center no-repeat;
+	&:hover{
+		background: url(../img/soc-link-facebook-hover.png) center no-repeat;
+	}
+}
+.twitter{
+	background: url(../img/soc-link-twitter.png) center no-repeat;
+	&:hover{
+		background: url(../img/soc-link-twitter-hover.png) center no-repeat;
+	}
+}
+.google-plus{
+	background: url(../img/soc-link-google-plus.png) center no-repeat;
+	&:hover{
+		background: url(../img/soc-link-google-plus-hover.png) center no-repeat;
+	}
+}
+.vk{
+	background: url(../img/soc-link-vk.png) center no-repeat;
+	&:hover{
+		background: url(../img/soc-link-vk-hover.png) center no-repeat;
+	}
+}
+.print{
+	background: url(../img/soc-link-print.png) center no-repeat;
+	&:hover{
+		background: url(../img/soc-link-print-hover.png) center no-repeat;
+	}
+}
+.headline{
+	font-size: 30px;
+	&:after{
+		height: 20px;
+	}
+
+}
+.page-content{
+	margin-bottom: 0;
+}
+.news-header{
+	margin-top: 25px;
+}
+@media only screen and (max-width: 992px) {
+	.page-content-inner{
+		padding: 20px;
+	}
+	.page-content-header{
+		font-size: 30px;
+		margin-left: 0;
+	}
+	.date-link,.news-add-information, .technology-add-information,.page-content-text,.page-content-inner h3,
+	.page-content-inner p,.social-links ul{
+		margin-left: 0;
+	}
+	
+}

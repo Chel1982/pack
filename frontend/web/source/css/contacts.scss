@@ -1,0 +1,99 @@
+@import "anons.scss";
+.headline{
+	display: inline-block;
+	font-size: 30px;
+	&:after{
+		top: 4px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.person-contacts{
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+.person-contacts{
+	img{
+		width: 100%;
+		max-width: 360px;
+	}
+	h3{
+		color: #d72a33;
+		font-size: 15px;
+		font-family: $OR;
+		text-align: center;
+		margin: 15px 0;
+
+	}
+	h1{
+		color: #232323;
+		font-size: 18px;
+		font-family: $OS;
+		margin-top: 0;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	h4{
+		color: #232323;
+		font-family: $OR;
+		font-size: 13px;
+		text-align: center;
+		opacity: .5;
+		margin-bottom: 35px;
+	}
+}
+
+.additional-information-innner{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 33px 4px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 33px 4px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 33px 4px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+}
+@media only screen and (max-width: 992px) {
+	.additional-information-innner{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.adress{
+		margin-top: 20px;
+	}
+}
+.adress{
+	display: flex;
+	img{
+		width: 100%;
+		max-width: 50px;
+		max-height: 50px;
+	}
+	p{
+		color: #232323;
+		font-size: 16px;
+		font-family: $OR;
+		margin-left: 10px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.additional-information-innner{
+		padding: 10px 5px;
+		align-items: center;
+	}
+	.adress{
+		flex-direction: column;
+		img{
+			display: block;
+			margin: 20px auto;
+		}
+		p{
+			text-align: center;
+		}
+	}
+}

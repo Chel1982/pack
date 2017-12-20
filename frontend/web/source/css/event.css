@@ -1,0 +1,328 @@
+.breadcrumbs-inner {
+  margin-top: 30px; }
+  .breadcrumbs-inner ul li {
+    display: inline-block; }
+    .breadcrumbs-inner ul li a {
+      font-size: 13px;
+      font-family: "OpenSansRegular";
+      color: #a6a6a6; }
+  .breadcrumbs-inner ul li:nth-child(2n) {
+    color: #d72a33;
+    margin: 0 15px; }
+
+.active-link a {
+  color: #d72a33 !important; }
+
+.anons-events .headline {
+  display: inline-block; }
+
+.wrapper-post {
+  background: #fff;
+  padding: 50px 25px;
+  -webkit-box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px; }
+
+.img-anons {
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  -webkit-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.2); }
+  .img-anons img {
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 15px; }
+  .img-anons p {
+    color: #232323;
+    font-size: 14px;
+    font-family: "OpenSansSemibold"; }
+
+.main-content-post h1 {
+  font-size: 18px;
+  font-family: "OpenSansSemibold";
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-right: 117px; }
+  .main-content-post h1 a {
+    color: #232323; }
+.main-content-post p {
+  color: #232323;
+  font-size: 13px;
+  font-family: "OpenSansRegular";
+  padding-right: 75px;
+  margin: 5px 0 20px 0; }
+.main-content-post .main-style-button {
+  padding: 15px 60px; }
+
+.icons-anons {
+  display: flex;
+  flex-wrap: wrap; }
+  .icons-anons .anons-event a {
+    color: #d72a33;
+    font-family: "OpenSansSemibold";
+    font-size: 13px;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px; }
+    .icons-anons .anons-event a:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: url(../img/microphone-icon.png) center no-repeat;
+      position: absolute;
+      left: 0; }
+  .icons-anons .anons-theme a {
+    color: #d72a33;
+    font-family: "OpenSansSemibold";
+    font-size: 13px;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px; }
+    .icons-anons .anons-theme a:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: url(../img/text-icon.png) center no-repeat;
+      position: absolute;
+      left: 0; }
+  .icons-anons .anons-place a {
+    color: #d72a33;
+    font-family: "OpenSansSemibold";
+    font-size: 13px;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px; }
+    .icons-anons .anons-place a:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: url(../img/map-icon.png) center no-repeat;
+      position: absolute;
+      left: 0; }
+
+@media only screen and (max-width: 992px) {
+  .main-content-post h1 {
+    margin-top: 20px;
+    padding-right: 10px; }
+
+  .main-content-post p {
+    padding-right: 0; }
+
+  .anons-event, .anons-theme, .anons-place {
+    margin-bottom: 10px; } }
+@media only screen and (max-width: 400px) {
+  .breadcrumbs-inner ul li {
+    display: block;
+    margin-bottom: 10px; }
+
+  .breadcrumbs-inner ul li:nth-child(2n) {
+    display: none; } }
+.magazine {
+  margin-top: 0; }
+
+.headline {
+  margin-top: 30px; }
+
+.out-block {
+  margin-bottom: 30px; }
+
+.magazine-img img {
+  width: 100%;
+  max-width: 330px;
+  max-height: 440px; }
+
+.history-inner img {
+  width: 100%;
+  max-width: 262px;
+  -webkit-box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1); }
+.history-inner p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "OpenSansSemibold";
+  padding: 15px 0 30px 0; }
+
+footer {
+  margin-top: 40px; }
+
+@media only screen and (max-width: 1200px) {
+  .history-inner img {
+    margin: 0 auto;
+    display: block; } }
+@media only screen and (max-width: 992px) {
+  .history-inner img {
+    display: block !important;
+    margin: 0 auto !important; }
+
+  .download-button {
+    margin-bottom: 30px; } }
+.dropbtn {
+  background-color: #fff;
+  color: #38302b;
+  padding: 10px 30px 10px 20px;
+  font-family: "OpenSansSemibold";
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1);
+  position: relative; }
+  .dropbtn:before {
+    content: " ";
+    width: 0px;
+    height: 0px;
+    color: #000;
+    border: solid #d72a33;
+    border-width: 0 1px 1px 0;
+    position: absolute;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    right: 10px;
+    top: 15px; }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 87px;
+  -webkit-box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 33px 7px rgba(0, 0, 0, 0.1);
+  z-index: 1; }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #38302b;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+  color: #38302b; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1; }
+
+.headline {
+  font-size: 36px;
+  margin-bottom: 30px; }
+
+.event-wrapper {
+  background: #fff;
+  padding: 40px 30px;
+  margin-bottom: 40px; }
+
+.first-event-list, .second-event-list {
+  margin-top: 40px;
+  margin-left: 30px; }
+  .first-event-list li, .second-event-list li {
+    padding-left: 30px;
+    position: relative; }
+
+.time-icon:before, .company-icon:before, .map-icon:before, .tel-icon:before, .envelope-icon:before, .email-icon:before, .place-icon:before {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  left: 7px;
+  top: 11px;
+  position: absolute;
+}
+.time-icon:before {
+  background: url(../img/calendar-pic1.png) center no-repeat; }
+.company-icon:before {
+  background: url(../img/who-icon.png) center no-repeat; }
+.map-icon:before {
+  background: url(../img/map-pic-15.png) center no-repeat; }
+.tel-icon:before {
+  background: url(../img/technology.png) center no-repeat; }
+.envelope-icon:before {
+  background: url(../img/grid-world.png) center no-repeat; }
+.email-icon:before {
+  background: url(../img/close-envelope.png) center no-repeat; }
+.place-icon:before {
+  background: url(../img/icon-building.png) center no-repeat; }
+    .first-event-list li a, .second-event-list li a {
+      color: #232323;
+      font-family: "OpenSansSemibold";
+      font-size: 16px;
+      opacity: .75; }
+
+.more-event-button {
+  margin-left: 30px;
+  margin-top: 15px;
+  padding: 15px 50px;
+  display: inline-block;
+  -webkit-box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.09); }
+
+.dropdown {
+  margin-left: 30px;
+  margin-top: 15px; }
+
+.dropbtn {
+  color: #d72a33;
+  font-size: 16px;
+  font-family: "OpenSansSemibold";
+  padding: 15px 30px 15px 20px;
+  background: none;
+  border: 1px solid #d72a33;
+  -webkit-box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.09); }
+  .dropbtn:before {
+    top: 20px; }
+
+.dropdown-content {
+  min-width: 210px; }
+
+.event-list-bottom {
+  margin-top: 50px;
+  list-style-type: square; }
+  .event-list-bottom li {
+    margin-bottom: 20px;
+    margin-left: 30px; }
+    .event-list-bottom li:first-child {
+      list-style-type: none;
+      margin-left: 0;
+      margin-bottom: 30px; }
+      .event-list-bottom li:first-child a {
+        color: #232323;
+        font-size: 16px;
+        font-family: "OpenSansSemibold"; }
+    .event-list-bottom li a {
+      color: #505050;
+      font-family: "OpenSansRegular";
+      font-size: 13px; }
+
+.img-event img {
+  width: 100%; }
+
+@media only screen and (max-width: 1200px) {
+  .dropbtn:before {
+    top: 20px; } }
+
+/*# sourceMappingURL=event.css.map */

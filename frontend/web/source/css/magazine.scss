@@ -1,0 +1,122 @@
+@import "anons.scss";
+.magazine{
+	margin-top: 0;
+}
+.headline{
+	margin-top: 30px;
+}
+.out-block{
+	margin-bottom: 30px;
+}
+.magazine-img{
+	img{
+		width: 100%;
+		max-width: 330px;
+		max-height: 440px;
+	}
+}
+.history-inner{
+	img{
+		width: 100%;
+		max-width: 262px;
+		-webkit-box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+	}
+	p{
+		text-align: center;
+		font-size: 16px;
+		font-family: $OS;
+		padding: 15px 0 30px 0; 
+	}
+}
+footer{
+	margin-top: 40px;
+}
+@media only screen and (max-width: 1200px) {
+	.history-inner{
+		img{
+			margin: 0 auto;
+			display: block;
+		}
+	}	
+}
+@media only screen and (max-width: 992px) {
+	.history-inner{
+		img{
+			display: block!important;
+			margin: 0 auto!important;
+		}
+	}
+	.download-button{
+		margin-bottom: 30px;
+	}	
+}
+
+.dropbtn {
+    background-color: #fff;
+    color: #38302b;
+    padding: 10px 30px 10px 20px;
+    font-family: $OS;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+	position: relative;
+	&:before{
+		content: " ";
+		width: 0px;
+		height: 0px;
+		color: #000;
+		border: solid #d72a33;
+		border-width: 0 1px 1px 0;
+		position: absolute;
+		display: inline-block;
+		padding: 3px;
+		transform: rotate(45deg);
+		right: 10px;
+		top: 15px;
+	}
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 87px;
+    -webkit-box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #38302b;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f2f2f2; color:#38302b; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,230 @@
+@import "catalog.scss";
+.prev-gallery-button,.prev-company-button{
+	@extend .prev-catalog-button;
+}
+.next-gallery-button,.next-company-button{
+	@extend .next-catalog-button;
+}
+.news-header{
+	margin-top: 0;
+}
+.gallery{
+	margin-bottom: 25px;
+	.gallery-img{
+		-webkit-box-shadow: 0px 0px 29px 3px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 0px 29px 3px rgba(0,0,0,0.1);
+		box-shadow: 0px 0px 29px 3px rgba(0,0,0,0.1);
+	}
+}
+.same-company{
+	margin-bottom: 95px;
+}
+.wrapper-pro{
+	background: #fff;
+	padding: 40px 30px;
+	-webkit-box-shadow: 0px 0px 29px 3px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 0px 29px 3px rgba(0,0,0,0.1);
+		box-shadow: 0px 0px 29px 3px rgba(0,0,0,0.1);
+}
+
+	.img{
+		position: relative;
+		img{
+			width: 100%;
+			z-index: 3;
+			position: relative;
+			-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.31);
+			min-width: 330px;
+			max-width: 330px;
+		}
+		.top-button-pro{
+			z-index: 3;
+			position: absolute;
+			top: -10px;
+			width: 85px;
+			left: 257px;
+			background: #ea6645;
+			padding: 10px 30px;
+			a{
+				font-size: 20px;
+				text-transform: uppercase;
+				font-family: $FN;
+				color: #fff;
+			}
+	}
+}
+
+.triangle{
+				position: absolute;
+				padding: 10px;
+				border-bottom: 6px solid #a33e26;
+				border-top: 6px solid transparent;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				transform: rotate(135deg);
+				top: -3px;
+				left: 242px;
+				z-index: 2;
+}
+.text{
+	margin-left: 0;
+	h1{
+		font-size: 24px;
+	}
+}
+.contacts-pro{
+	margin-top: 15px;
+	li{
+		margin-bottom: 15px;
+		a{
+			color: #232323;
+			font-size: 13px;
+			font-family: $OS;
+			padding-left: 30px;
+			position: relative;
+			&:before{
+				content: " ";
+				width: 15px;
+				height: 15px;
+				position: absolute;
+				left: 0;
+		  }
+		}
+	}
+}
+.phone{
+	&:before{
+	background: url(../img/technology.png) center;
+	}
+}
+.smartphone{
+	&:before{
+	background: url(../img/smartphone.png) center;
+	}
+}
+.map{
+	&:before{
+		background: url(../img/map-pic-15.png) center;
+	}
+}
+.envelope{
+	&:before{
+		background: url(../img/close-envelope.png) center;
+	}
+}
+.world{
+	&:before{
+		background: url(../img/grid-world.png) center;
+	}
+}
+.pro-side-panel{
+	ul{
+		border: 1px solid #eee;
+		li{
+			padding: 30px 0;
+			padding-left: 70px;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			&:before{
+				content: " ";
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				left: 20px;
+			}
+			a{
+				color: #232323;
+				font-size: 13px;
+				font-family: $OS;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+.speed{
+	&:before{
+		background: url(../img/speed.png) center no-repeat;
+	}
+}
+.enginner{
+	&:before{
+		background: url(../img/engineer.png) center no-repeat;
+	}
+}
+.growth{
+	&:before{
+		background: url(../img/growth.png) center no-repeat;
+	}
+}
+.ok{
+	&:before{
+		background: url(../img/checklist.png) center no-repeat;
+	}
+}
+.about-company-content{
+	background: #fff;
+	padding: 40px 50px;
+}
+.about-company{
+	margin-top: 80px;
+}
+.about-company-content{
+	position: relative;
+	a{
+		font-size: 18px;
+		color: #d72a33;
+		font-family: $FN;
+		background: #fff;
+		text-transform: uppercase;
+		display: block;
+		position: absolute;
+		top: -45px; 
+		padding: 15px;
+		&:hover{
+			color: #d72a33;
+		}
+	}
+	p{
+		font-family: $OR;
+		font-size: 13px;
+		margin-bottom: 30px;
+		img{
+			max-width: 100%;
+			float: left;
+			padding-right: 30px;
+		}
+	}
+}
+@media only screen and (max-width: 992px){
+	.gallery-img,.company-img{
+		max-width: 260px;
+		display: block;
+		margin: 10px auto;
+	}
+	.about-company-content{
+		p{
+			img{
+				width: 100%!important;
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 420px) {
+	.img img{
+		max-width: 100%!important;
+		min-width: 100px;
+	}
+	.img .top-button-pro{
+		left: 10px;
+	}
+	.triangle{
+		display: none;
+	}
+	.about-company-content{
+		padding: 20px 10px;
+	}
+	
+}

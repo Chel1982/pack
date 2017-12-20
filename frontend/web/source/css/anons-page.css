@@ -1,0 +1,193 @@
+.breadcrumbs-inner {
+  margin-top: 30px; }
+  .breadcrumbs-inner ul li {
+    display: inline-block; }
+    .breadcrumbs-inner ul li a {
+      font-size: 13px;
+      font-family: "OpenSansRegular";
+      color: #a6a6a6; }
+  .breadcrumbs-inner ul li:nth-child(2n) {
+    color: #d72a33;
+    margin: 0 15px; }
+
+.active-link a {
+  color: #d72a33 !important; }
+
+.anons-events .headline {
+  display: inline-block; }
+
+.wrapper-post {
+  background: #fff;
+  padding: 50px 25px;
+  -webkit-box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px; }
+
+.img-anons {
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  -webkit-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.2); }
+  .img-anons img {
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 15px; }
+  .img-anons p {
+    color: #232323;
+    font-size: 14px;
+    font-family: "OpenSansSemibold"; }
+
+.main-content-post h1 {
+  font-size: 18px;
+  font-family: "OpenSansSemibold";
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-right: 117px; }
+  .main-content-post h1 a {
+    color: #232323; }
+.main-content-post p {
+  color: #232323;
+  font-size: 13px;
+  font-family: "OpenSansRegular";
+  padding-right: 75px;
+  margin: 5px 0 20px 0; }
+.main-content-post .main-style-button {
+  padding: 15px 60px; }
+
+.icons-anons {
+  display: flex;
+  flex-wrap: wrap; }
+  .icons-anons .anons-event a {
+    color: #d72a33;
+    font-family: "OpenSansSemibold";
+    font-size: 13px;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px; }
+    .icons-anons .anons-event a:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: url(../img/microphone-icon.png) center no-repeat;
+      position: absolute;
+      left: 0; }
+  .icons-anons .anons-theme a {
+    color: #d72a33;
+    font-family: "OpenSansSemibold";
+    font-size: 13px;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px; }
+    .icons-anons .anons-theme a:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: url(../img/text-icon.png) center no-repeat;
+      position: absolute;
+      left: 0; }
+  .icons-anons .anons-place a {
+    color: #d72a33;
+    font-family: "OpenSansSemibold";
+    font-size: 13px;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px; }
+    .icons-anons .anons-place a:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: url(../img/map-icon.png) center no-repeat;
+      position: absolute;
+      left: 0; }
+
+@media only screen and (max-width: 992px) {
+  .main-content-post h1 {
+    margin-top: 20px;
+    padding-right: 10px; }
+
+  .main-content-post p {
+    padding-right: 0; }
+
+  .anons-event, .anons-theme, .anons-place {
+    margin-bottom: 10px; } }
+@media only screen and (max-width: 400px) {
+  .breadcrumbs-inner ul li {
+    display: block;
+    margin-bottom: 10px; }
+
+  .breadcrumbs-inner ul li:nth-child(2n) {
+    display: none; } }
+.page-content {
+  margin-bottom: 80px;
+  margin-top: 40px; }
+
+.page-content-inner {
+  background: #fff;
+  padding: 40px 70px; }
+  .page-content-inner img {
+    width: 100%; }
+  .page-content-inner h3 {
+    font-size: 24px;
+    font-family: "FuturaNormal";
+    color: #232323;
+    margin-bottom: 25px;
+    margin-top: 40px; }
+  .page-content-inner p {
+    font-family: "OpenSansRegular";
+    font-size: 13px;
+    color: #444444;
+    margin-top: 25px; }
+
+.fix-margin-page-content {
+  margin-top: 0 !important; }
+
+.highlight-text {
+  background: #f2f2f2;
+  font-size: 18px;
+  font-family: "OpenSansSemibold";
+  padding: 40px 0 40px 100px;
+  position: relative; }
+  .highlight-text:before {
+    content: " ";
+    width: 3px;
+    height: 37px;
+    background: #dc5b61;
+    position: absolute;
+    left: 70px;
+    top: 46px; }
+
+.date-link {
+  font-size: 16px;
+  font-family: "OpenSansSemibold";
+  text-transform: uppercase;
+  color: #fff;
+  background: #e15f66;
+  padding: 15px;
+  display: inline-block; }
+
+.page-content-header {
+  font-family: "OpenSansSemibold";
+  font-size: 30px;
+  color: #232323;
+  margin: 25px 0; }
+
+.page-content-text {
+  font-size: 16px;
+  font-family: "OpenSansRegular";
+  color: #232323;
+  margin-bottom: 60px; }
+
+@media only screen and (max-width: 992px) {
+  .page-content-inner {
+    padding: 20px; }
+    .page-content-inner p {
+      font-size: 15px; } }
+
+/*# sourceMappingURL=anons-page.css.map */
